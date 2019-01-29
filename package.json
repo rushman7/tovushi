@@ -1,0 +1,8 @@
+{
+  "name": "Tovushi",
+  "version": "1.0.0",
+  "description": "tovushi lite website",
+  "main": "index.js",
+  "author": "arthur",
+  "license": "MIT"
+}

@@ -28,9 +28,6 @@ body::-webkit-scrollbar-track {
 button:hover {
   transform: scale(1.1);
 }
-.home_page {
-  border: 1px solid red;
-}
 .App {
   text-align: center;
 }
@@ -69,7 +66,11 @@ button:hover {
   background-color: #fafafa;
   font-family: apple-system,BlinkMacSystemFont, Segoe UI ",Roboto,Helvetica,Arial,sans-serif";
   margin: auto;
-  padding-top: 6px;
+  padding-top: 4px;
+  align-items: center;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  box-shadow: 5px 10px 20px -20px #55acee;
 }
 @media (max-width: 900px) {
   .nav {
@@ -87,39 +88,69 @@ button:hover {
   width: 25%;
   height: 100%;
   color: #3B8BEB;
+  border: 1px 0px solid #eeeeee;
+  border-radius: 0px 20px;
 }
 .nav .home-nav .fa-home {
   margin-right: 4px;
+}
+.nav .home-nav:hover {
+  background-color: #C4DBF6;
+  color: #fafafa;
 }
 .nav .about-nav {
   width: 25%;
   height: 100%;
   color: #3B8BEB;
+  border: 1px 0px solid #eeeeee;
+  border-radius: 0px 20px;
 }
 .nav .about-nav .fa-info-circle {
   margin-right: 4px;
+}
+.nav .about-nav:hover {
+  background-color: #C4DBF6;
+  color: #fafafa;
 }
 .nav .classes-nav {
   width: 25%;
   height: 100%;
   color: #3B8BEB;
+  border: 1px 0px solid #eeeeee;
+  border-radius: 0px 20px;
 }
 .nav .classes-nav .fa-book {
   margin-right: 4px;
+}
+.nav .classes-nav:hover {
+  background-color: #C4DBF6;
+  color: #fafafa;
 }
 .nav .schedule-nav {
   width: 25%;
   height: 100%;
   color: #3B8BEB;
+  border: 1px 0px solid #eeeeee;
+  border-radius: 0px 20px;
 }
 .nav .schedule-nav .fa-calendar {
   margin-right: 4px;
+}
+.nav .schedule-nav:hover {
+  background-color: #C4DBF6;
+  color: #fafafa;
 }
 .nav .contact-nav {
   width: 25%;
   height: 100%;
   color: #3B8BEB;
+  border: 1px 0px solid #eeeeee;
+  border-radius: 0px 20px;
 }
 .nav .contact-nav .fa-phone {
   margin-right: 4px;
+}
+.nav .contact-nav:hover {
+  background-color: #C4DBF6;
+  color: #fafafa;
 }

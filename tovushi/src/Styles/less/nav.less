@@ -1,32 +1,67 @@
 .nav {
   width: 100%;
-  height: 35px;
+  height: 45px;
   font-size: 2.6rem;
   font-weight: 300;
   text-align: center;
   display: flex;
-  top: 0;
+  background-color: @white;
+  font-family: @primary-font;
+  margin: auto;
+  padding-top: 6px;
   @media @tablet {
     height: 30px;
     font-size: 2.2rem;
+    padding-bottom: 4px;
   }
   @media @phone {
     display: none;
   }
-  .about-nav {
+  
+ 
+  .home-nav {
     width: 25%;
     height: 100%;
+    color: @blue;
+
+    .fa-home {
+      margin-right: 4px;
+    }
+  }
+  .about-nav {
+    width: 25%;
+    height: 100%; 
+    color: @blue;
+    
+    .fa-info-circle {
+      margin-right: 4px;
+    }
   }
   .classes-nav {
     width: 25%;
     height: 100%;
+    color: @blue;
+
+    .fa-book {
+      margin-right: 4px;
+    }
   }
   .schedule-nav {
     width: 25%;
     height: 100%;
+    color: @blue;
+
+    .fa-calendar {
+      margin-right: 4px;
+    }
   }
   .contact-nav {
     width: 25%;
     height: 100%;
+    color: @blue;
+
+    .fa-phone {
+      margin-right: 4px;
+    }
   }
 }

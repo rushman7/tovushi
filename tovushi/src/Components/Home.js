@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Nav from './Nav';
-
+import Carousel from './Carousel';
 
 class Home extends Component {
   render() {
@@ -9,6 +9,7 @@ class Home extends Component {
         <Nav />
         <div className="home_page">
           Welcome to Tovushi Lite!
+          <Carousel />
         </div>
       </React.Fragment>
     )

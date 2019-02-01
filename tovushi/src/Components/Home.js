@@ -8,7 +8,7 @@ class Home extends Component {
       <React.Fragment>
         <Nav />
         <div className="home_page">
-          Welcome to Tovushi Lite!
+          <h2 className="home_title">Welcome to Tovushi Lite!</h2>
           <Carousel />
         </div>
       </React.Fragment>

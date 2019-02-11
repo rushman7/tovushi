@@ -17,7 +17,7 @@ class Nav extends Component {
           to="/about"
           style={{ textDecoration: "none"}}>
           <i class="fa fa-info-circle" aria-hidden="true"></i>
-          <span className="span">About</span>
+          <span className="span">About Us</span>
         </Link>
         <Link
           className="classes-nav"

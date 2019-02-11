@@ -3,19 +3,19 @@ import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCa
 
 const items = [
   {
-    src: 'https://i.imgur.com/niVzFyr.jpg',
-    altText: 'Slide 1',
-    caption: 'Slide 1'
+    src: 'https://i.imgur.com/V5TXL5e.jpg',
+    altText: 'Our soccer team placed second in USA Disney Soccer Championship',
+    caption: 'Soccer Championship in Orlando, Florida'
   },
   {
     src: 'https://i.imgur.com/1JCfzQ9.jpg',
-    altText: 'Slide 2',
-    caption: 'Slide 2'
+    altText: 'Joined us at the Light Kids Centers pre-New Year celebration and dance showcase',
+    caption: 'Public Advocate Candidate Tony Herbert supporting Light Kids Center'
   },
   {
-    src: 'https://i.imgur.com/0r5EVqG.jpg',
-    altText: 'Slide 3',
-    caption: 'Slide 3'
+    src: 'https://i.imgur.com/jVhSaSB.jpg',
+    altText: 'Our dancers perform many dances such as Chechenzki',
+    caption: 'Dance Performance in Master Theatre'
   }
 ];
 
@@ -66,7 +66,7 @@ class ImageSlider extends Component {
           key={item.src}
         >
           <img src={item.src} alt={item.altText} />
-          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+          <CarouselCaption captionText={item.altText} captionHeader={item.caption} />
         </CarouselItem>
       );
     });

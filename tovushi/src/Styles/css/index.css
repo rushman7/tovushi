@@ -111,7 +111,7 @@ button:hover {
 }
 @media (max-width: 900px) {
   .nav {
-    width: 90%;
+    width: 80%;
     height: 35px;
     font-size: 2.2rem;
   }
@@ -193,4 +193,10 @@ button:hover {
 .nav .contact-nav:hover {
   background-color: #C4DBF6;
   color: #fafafa;
+}
+.about-text {
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+  padding-top: 15px;
 }

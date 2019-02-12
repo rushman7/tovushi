@@ -6,7 +6,7 @@ class About extends Component {
     return (
       <React.Fragment>
         <Nav />
-        <div>
+        <div className="about-text">
           <p className="about-text-1">
             We are a kids community center located in Brooklyn, NY. We have children ranging from all ages 5 and up. 
           </p>

@@ -194,7 +194,7 @@ button:hover {
   background-color: #C4DBF6;
   color: #fafafa;
 }
-.about-text {
+.about {
   width: 80%;
   margin: auto;
   display: flex;
@@ -206,23 +206,32 @@ button:hover {
   padding: 15px 0px 15px 0px;
   font-size: 18px;
 }
-.about-text .about-text-1 {
-  border: 1px solid black;
-  width: 45%;
+.about .about-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-.about-text .about-text-2 {
+.about .about-content .about-text-1 {
   border: 1px solid black;
-  width: 45%;
+  width: 35%;
 }
-.about-text .about-text-3 {
+.about .about-content .about-text-2 {
   border: 1px solid black;
-  width: 45%;
+  width: 35%;
+  order: 1;
 }
-.about-text .about-text-4 {
+.about .about-content .about-text-3 {
   border: 1px solid black;
-  width: 45%;
+  width: 35%;
 }
-.about-text .about-text-5 {
+.about .about-content .about-text-4 {
   border: 1px solid black;
-  width: 45%;
+  width: 35%;
+  order: 1;
+}
+.about .about-content .about-text-5 {
+  border: 1px solid black;
+  width: 35%;
 }

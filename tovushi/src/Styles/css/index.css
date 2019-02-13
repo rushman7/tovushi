@@ -197,6 +197,32 @@ button:hover {
 .about-text {
   width: 80%;
   margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   border: 1px solid black;
-  padding-top: 15px;
+  padding: 15px 0px 15px 0px;
+  font-size: 18px;
+}
+.about-text .about-text-1 {
+  border: 1px solid black;
+  width: 45%;
+}
+.about-text .about-text-2 {
+  border: 1px solid black;
+  width: 45%;
+}
+.about-text .about-text-3 {
+  border: 1px solid black;
+  width: 45%;
+}
+.about-text .about-text-4 {
+  border: 1px solid black;
+  width: 45%;
+}
+.about-text .about-text-5 {
+  border: 1px solid black;
+  width: 45%;
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Nav from './Nav';
+import FrontSide from '../Images/FrontSide.jpg';
 
 class About extends Component {
   render() {
@@ -10,6 +11,7 @@ class About extends Component {
           <p className="about-text-1">
             We are a kids community center located in Brooklyn, NY. We have children ranging from all ages 5 and up. 
           </p>
+          <img src={FrontSide} alt="FrontSide" />;
           <p className="about-text-2">
             A dance team, a soccer team, chess, drums and many more. 
           </p>

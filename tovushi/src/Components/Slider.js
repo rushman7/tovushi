@@ -1,13 +1,21 @@
-import React from 'react';
-import Slide from './slide';
+import React, { Component } from 'react';
+import Slide from './Slide';
 import LeftArrow from './LeftArrow';
 import RightArrow from './RightArrow';
 
-class Slider extends Compontent {
+class Slider extends Component {
   constructor(props) {
     super(props)
 
     this.state = {}
+  }
+
+  lastSlide = () => {
+
+  }
+
+  nextSlide = () => {
+
   }
 
   render() {
@@ -15,8 +23,12 @@ class Slider extends Compontent {
       <div className="slider">
         <Slide />
 
-        <LeftArrow />
-        <RightArrow />
+        <LeftArrow 
+          lastSlide={this.lastSlide}
+        />
+        <RightArrow 
+          nextSlide={this.nextSlide}
+        />
       </div>
     )
   }

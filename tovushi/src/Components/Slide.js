@@ -1,5 +1,3 @@
-import React, { Component } from 'react';
-
 // const items = [
 //   {
 //     src: 'https://i.imgur.com/yCjwSrZ.jpg',
@@ -18,19 +16,10 @@ import React, { Component } from 'react';
 //   }
 // ];
 
-class ImageSlider extends Component {
-  constructor(props) {
-    super(props);
+import React from 'react'
 
-    this.state = {}
-  }
-  render() {
-    return (
-      <div className="slider">
+const Slide = () => {
+  return <div className="slide"></div>
+}
 
-      </div>
-    )
-  }
-};
-
-export default ImageSlider;
+export default Slide

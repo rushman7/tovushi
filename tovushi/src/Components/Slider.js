@@ -7,7 +7,14 @@ class Slider extends Component {
   constructor(props) {
     super(props)
 
-    this.state = {}
+    this.state = {
+      images: [
+        "https://i.imgur.com/yCjwSrZ.jpg",
+        "https://i.imgur.com/jovIZXq.jpg",
+        "https://i.imgur.com/a1EyhcL.jpg",
+      ],
+      currentIndex: 0
+    }
   }
 
   lastSlide = () => {
@@ -15,7 +22,9 @@ class Slider extends Component {
   }
 
   nextSlide = () => {
-
+    this.setState(prevState => ({
+      currentIndex: prevState.currentIndex + 1
+    }));
   }
 
   render() {

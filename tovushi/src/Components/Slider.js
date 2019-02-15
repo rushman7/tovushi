@@ -30,7 +30,13 @@ class Slider extends Component {
   render() {
     return (
       <div className="slider">
-        <Slide />
+
+        {
+          this.state.images.map((image, i) => (
+            <Slide key={i} image={image} />  
+          ))
+        }
+        
 
         <LeftArrow 
           lastSlide={this.lastSlide}

@@ -375,3 +375,11 @@ button:hover {
     margin: 0 -10px;
   }
 }
+.slider-container {
+  margin: 0;
+  padding: 0;
+  background: #34495e;
+  width: 700px;
+  height: 400px;
+  overflow: hidden;
+}

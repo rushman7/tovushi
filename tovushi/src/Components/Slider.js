@@ -3,11 +3,11 @@ import React, { Component } from 'react';
 class Slider extends Component {
   render () {
     return (
-      <div className="slider-container middle">
+      <div className="slider-container">
         <div className="slides">
-          <input type="radio" name="r" id="r1" checked />
-          <input type="radio" name="r" id="r2" />
-          <input type="radio" name="r" id="r3" />
+          <input type="radio" className="radio-button" id="r1" />
+          <input type="radio" className="radio-button" id="r2" />
+          <input type="radio" className="radio-button" id="r3" />
           <div className="slide">
             <img src="https://i.imgur.com/yCjwSrZ.jpg" alt=""/>
             <img src="https://i.imgur.com/jovIZXq.jpg" alt=""/>

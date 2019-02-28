@@ -384,6 +384,27 @@ button:hover {
   overflow-x: hidden;
   position: relative;
 }
+.slider-container .arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+.slider-container #arrow-left {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #fff transparent transparent;
+  left: 0;
+  margin-left: 30px;
+}
+.slider-container #arrow-right {
+  border-width: 30px 0px 30px 40px;
+  border-color: transparent transparent transparent #fff;
+  right: 0;
+  margin-right: 30px;
+}
 .slider-container .slider .slide {
   background-size: cover;
   background-position: center;
@@ -401,6 +422,10 @@ button:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.slider-container .slider .slide .slide-content span {
+  font-size: 5rem;
+  color: #fff;
 }
 .slider-container .slider .slide1 {
   background-image: url('https://i.imgur.com/nkDpGWt.jpg');
